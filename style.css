@@ -1,0 +1,101 @@
+/* body{
+    
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: normal;
+        align-content: center;
+      
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Roboto, serif;
+  }
+
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+    font-family: ;
+  }
+
+
+.main{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    padding: 64px;
+}
+
+.text, .photo{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+}
+
+.big{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.small{
+    font-size: 18px;
+}
+
+button{
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 24px;
+    width: 150px;
+    color: black;
+}
+
+.info{
+    background-color: chocolate;
+}
+
+.quote{
+    background-color: darkcyan;
+}
+
+.action{
+    background-color: deeppink;
+}
+
+.footer{
+    background-color: indigo;
+}
