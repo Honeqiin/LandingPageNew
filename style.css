@@ -1,28 +1,21 @@
-/* body{
-    
-        display: inline-flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: normal;
-        align-content: center;
-      
-} */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 body {
     margin: 0;
-    background: #eee;
+    background: #efefef;
     font-family: Roboto, serif;
   }
 
 .header{
-    background-color: aqua;
+    background-color: #122620;
     display: flex;
     justify-content: space-around;
     padding: 8px;
+    color: white;
+    
     
 }
 
@@ -38,23 +31,30 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 24px;
     font-size: 18px;
-    font-family: ;
+  }
+
+  .logo{
+    font-family: "Dancing Script", cursive;
+    font-size:64px;
   }
 
 
 .main{
-    background-color: blueviolet;
+    background-color: #122620;
     display: flex;
     justify-content: space-around;
     padding: 64px;
+        color: white;
+
 }
 
 .text, .photo{
     display: flex;
     align-items: center;
     gap: 16px;
+    
 }
 
 .text{
@@ -76,26 +76,90 @@ body {
 }
 
 button{
-    border: none;
-    border-radius: 8px;
-    color: white;
+    border: 2px solid #efefef;
+    border-radius: 20px 20px 20px 20px;
     padding: 8px 24px;
     width: 150px;
-    color: black;
+    color: white;
+    background: none; 
+    font-size: 18px;
 }
 
 .info{
-    background-color: chocolate;
+    
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 50px 150px 150px 150px;
 }
 
+.title {
+    margin: 32px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 20px;
+  }
+
+  .card{
+    max-width: 200px;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 2500;
+  }
+
+  .cardtitle{
+    max-width: 200px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 21px;
+    padding: 5px;
+  }
+
+  img{
+        border: 5px solid #122620;
+        border-radius: 20px 20px 20px 20px;
+        background: transparent;
+  }
+
 .quote{
-    background-color: darkcyan;
+    background-color: #F4EBD0;
+    font-size: 36px;
+    font-weight:300;
+    padding: 100px 250px;
+    text-align: center;
+    color: #122620;
+    font-style:italic;
 }
 
 .action{
-    background-color: deeppink;
+    background-color: #B68D40;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    gap: 24px;
+    align-items: end;
+    margin: 100px 400px;
+    color: #122620;
 }
 
-.footer{
-    background-color: indigo;
+.call{
+    font-size: 32px;
+    font-weight: bolder;
 }
+
+.desc{
+    font-size: 18px;
+}
+
+
+
+ .footer{
+    background-color: #122620;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+      
+} 
